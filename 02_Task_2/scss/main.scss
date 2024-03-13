@@ -1,0 +1,31 @@
+$baseColor: #2325b8;
+$secondColor: rgba(0, 0, 0, .3);
+$thirdColor:  rgba(0, 0, 0, .4);
+
+
+section {
+  border-color: yellowgreen;
+
+
+  .section-1 {
+    color: $baseColor;
+  }
+
+  .section-2 {
+    color: $secondColor;
+  }
+
+  .section-3 {
+    color: $thirdColor;
+  }
+}
+
+  @for $i from 1 to 3 {
+    section-#{$i} {border-color: 5x solid; }
+
+    }
+
+
+
+
+
